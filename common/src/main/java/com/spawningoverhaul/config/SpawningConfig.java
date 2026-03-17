@@ -46,6 +46,9 @@ public class SpawningConfig {
 
     // ===== Immersive Spawning Settings =====
 
+    @SerialEntry(comment = "Enable debugging")
+    public boolean debugmode = false;
+
     @SerialEntry(comment = "Enable immersive spawning system")
     public boolean enableImmersiveSpawning = true;
 
